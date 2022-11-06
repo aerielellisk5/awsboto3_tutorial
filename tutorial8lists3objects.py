@@ -10,3 +10,5 @@ objects = s3_resource.list_objects(Bucket="akawasaiboto3tutorial1")["Contents"]
 
 for object in objects:
     print(object["Size"])
+
+# just adding a comment to test out github
