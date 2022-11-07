@@ -15,7 +15,7 @@ s3_resource = boto3.client("s3")
 cwd=os.getcwd()
 cwd=cwd+"/upload/"
 
-files = glob.glob(cwd+"*.png")
+files = glob.glob(cwd+"*.jpg")
 # this will grab all the files with .png
 
 print(files)
