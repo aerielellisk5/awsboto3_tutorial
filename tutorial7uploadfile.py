@@ -4,12 +4,12 @@ import glob
 
 s3_resource = boto3.client("s3")
 
-# s3_resource.upload_file(
-#     Filename="aviandtj.jpg",
-#     # does the file need to be in the same folder? YES
-#     Bucket="akawasaiboto3tutorial1",
-#     Key="uploadtest.png"
-# )
+s3_resource.upload_file(
+    Filename="aviandtj.jpg",
+    # does the file need to be in the same folder? YES
+    Bucket="akawasaiboto3tutorial1",
+    Key="uploadtest.png"
+)
 
 
 cwd=os.getcwd()
