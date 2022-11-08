@@ -13,7 +13,7 @@ s3_resource.upload_file(
 
 
 cwd=os.getcwd()
-cwd=cwd+"/upload/"
+cwd=cwd+"/AWSBOTO3_TUTORIAL/"
 
 files = glob.glob(cwd+"*.jpg")
 # this will grab all the files with .png
